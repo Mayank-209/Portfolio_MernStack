@@ -3,6 +3,8 @@ import Layout from './components/layout/Layout'
 import About from './pages/About/About'
 import TechStack from './pages/TechStack/TechStack'
 import Projects from './pages/Projects/Projects'
+import Education from './pages/Education/Education'
+import WorkExp from './pages/WorkExp/WorkExp'
 
 
 function App() {
@@ -13,8 +15,10 @@ function App() {
       <Layout/>
       <div className="container">
       <About/>
+      <Education/>
       <TechStack/>
       <Projects/>
+      <WorkExp/>
       </div>
       
 

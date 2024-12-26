@@ -1,6 +1,6 @@
 import React from "react";
 import "./Menus.css";
-import {FcHome,FcAbout, FcPortraitMode, FcBiotech, FcReadingEbook, FcVideoProjector, FcVoicePresentation, FcBusinessContact} from 'react-icons/fc'
+import {FcHome,FcAbout, FcPortraitMode, FcBiotech, FcReadingEbook, FcVideoProjector, FcBusinessContact} from 'react-icons/fc'
 
 const Menus = ({ toggle }) => {
   return (
@@ -24,25 +24,24 @@ const Menus = ({ toggle }) => {
             About
             </div>
             <div className="nav-link">
-            <FcPortraitMode/>
-            Work Experience
+            <FcReadingEbook/>
+            Education
             </div>
+            
             <div className="nav-link">
             <FcBiotech/>
             Tech Stack
             </div>
-            <div className="nav-link">
-            <FcReadingEbook/>
-            Education
-            </div>
+            
             <div className="nav-link">
             <FcVideoProjector/>
             Projects
             </div>
             <div className="nav-link">
-            <FcVoicePresentation/>
-            Testimonial
+            <FcPortraitMode/>
+            Work Experience
             </div>
+            
             <div className="nav-link">
             <FcBusinessContact/>
             Contact
@@ -64,23 +63,22 @@ const Menus = ({ toggle }) => {
             
             </div>
             <div className="nav-link">
-            <FcPortraitMode title="Experience"/>
+            <FcReadingEbook title="Education"/>
             
             </div>
+            
             <div className="nav-link">
             <FcBiotech title="Tech Stack"/>
             
             </div>
-            <div className="nav-link">
-            <FcReadingEbook title="Education"/>
             
-            </div>
             <div className="nav-link">
             <FcVideoProjector title="Projects"/>
            
             </div>
+            
             <div className="nav-link">
-            <FcVoicePresentation title="Testimonials"/>
+            <FcPortraitMode title="Experience"/>
             
             </div>
             <div className="nav-link">
